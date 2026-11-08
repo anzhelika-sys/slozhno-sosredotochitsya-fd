@@ -25,7 +25,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
   --bg-image_body: url(../images/cover-image-dark.png);
-  --bg-color_body: #000247;
+  --bg-color_body: #000028;
   --bg-color-title: #DB00FF;
   --color-decoration-button: #FF0070;
   --color-decoration-transparency: rgba(255, 0, 112, 0.4);

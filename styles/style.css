@@ -232,7 +232,7 @@
   .main {
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 }
 
@@ -340,8 +340,13 @@
 }
 
 @media (max-width: 800px) {
-  .card-text-tablet {
-    grid-column: 1/-1;
+  .section-title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .section-tablet {
+    gap: 20px;
   }
 
   .card-text-concentracion {
@@ -357,6 +362,17 @@
   .card-text-gadgets {
     grid-column: 1/-1;
     grid-row: 4;
+  }
+}
+
+@media (max-width: 600px){
+  .section-title {
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+
+  .section-tablet {
+    gap: 0px;
   }
 }
 
@@ -412,10 +428,13 @@
 @media (max-width: 600px) {
   .gelary {
     display: grid;
-    gap: 10px;
+    gap: 0px;
     grid-template-columns: 1fr;
     grid-template-rows: min-content 1fr;
-    grid-auto-rows: auto;
+  }
+
+  .gelary-list {
+    margin-bottom: 5px;
   }
 
   .gelary-sunset {
@@ -441,18 +460,13 @@
   .gelary-street {
     grid-column: 1/-1;
     grid-row: span 1;
+    margin-bottom: 0;
   }
 }
 
 .section-gelary {
   display: block;
-  margin-bottom: 60px;
-}
-
-@media (max-width: 600px) {
-  .section-gelary {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 0px;
 }
 
 /*Стиили для подвала сайта*/
