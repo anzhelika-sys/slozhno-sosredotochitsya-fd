@@ -299,7 +299,7 @@
 
 .card {
   display: grid;
-  grid-column: 2/-1; 
+  grid-column: 2/-1;
   gap: var(--gap);
 }
 
@@ -365,7 +365,7 @@
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   .section-title {
     grid-column: 1/-1;
     grid-row: 1;
