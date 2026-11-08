@@ -9,4 +9,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image_body: url(../images/cover-image-light.png);
+  --bg-color_body: #ffebfbee;
+  --bg-color-title: #FFC2E6;
+  --color-decoration-button: #353430;
+  --color-decoration-transparency: rgba(53, 52, 48, 0.4);
+  --color-decoration-link: #353430;
+  --accent-color: #FF8DCB;
+  --color-text: #353430;
+  --color-text-subtitle: #353430;
+  --color-title: #353430;
+  --rec: none;
 }

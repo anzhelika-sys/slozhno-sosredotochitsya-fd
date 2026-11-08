@@ -9,4 +9,31 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image_body: url(../images/cover-image-dark.png);
+  --bg-color_body: #000247;
+  --bg-color-title: #DB00FF;
+  --color-decoration-button: #FF0070;
+  --color-decoration-transparency: rgba(255, 0, 112, 0.4);
+  --color-decoration-link: #F1B2CE;
+  --accent-color: #FF0070;
+  --color-text: #F1B2CE;
+  --color-text-subtitle: #000028;
+  --color-title: #FF0070;
+  --rec: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+  --bg-image_body: url(../images/cover-image-dark.png);
+  --bg-color_body: #000247;
+  --bg-color-title: #DB00FF;
+  --color-decoration-button: #FF0070;
+  --color-decoration-transparency: rgba(255, 0, 112, 0.4);
+  --color-decoration-link: #F1B2CE;
+  --accent-color: #FF0070;
+  --color-text: #F1B2CE;
+  --color-text-subtitle: #000028;
+  --color-title: #FF0070;
+  --rec: inline-block;
+  }
 }
